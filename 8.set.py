@@ -70,11 +70,13 @@ except KeyboardInterrupt:
     print("\nEl usuario decidio terminar con el programa.")
 
 
-nombre_productos_comprados = [descripcion['nombre']
-                              for descripcion, cant in carrito]
-print(nombre_productos_comprados)
+nombre_productos_comprados = {descripcion['nombre']
+                              for descripcion, cant in carrito}
+
+nombres_productos_inventario = {p['nombre']
+                                for p in inventario}
 
 
-set_productos = set(nombre_productos_comprados)
-print(set_productos)
-# imprimir_recivo(carrito)s
+imprimir_recivo(carrito)
+print(
+    f"Productos sin comprar {nombres_productos_inventario - nombre_productos_comprados}")
