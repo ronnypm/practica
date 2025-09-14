@@ -10,7 +10,7 @@ carrito = []
 
 def buscar_producto(nombre_producto: str, inventario_lista: list) -> dict | None:
     for producto in inventario_lista:
-        if nombre_producto == producto['nombre']:
+        if nombre_producto == producto['nombre']: 
             return producto
     return None
 
