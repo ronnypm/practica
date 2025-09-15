@@ -12,4 +12,9 @@ for i in range(20):
     print(f'El rango es {i}')
 
 
-print ('nueva fila')
+def rango():
+    for i in range(20):
+         print(f'Esto es una prueba {i}')
+
+def otro_rango():
+    pass
