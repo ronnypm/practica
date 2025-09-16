@@ -23,3 +23,6 @@ def otro_rango():
 
 def otro_rango():
     pass
+
+
+print("hola desde ronald")
