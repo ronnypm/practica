@@ -18,3 +18,8 @@ def rango():
 
 def otro_rango():
     pass
+
+
+
+def otro_rango():
+    pass
