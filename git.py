@@ -1,9 +1,6 @@
-print('Hola') 
 print('Hola')
-print('Nuevo linea de print') 
-
-
-
+print('Hola')
+print('Nuevo linea de print')
 
 
 print("Hola ronny")
@@ -14,12 +11,14 @@ for i in range(2):
 
 def rango():
     for i in range(4):
-         print(f'Esto es una prueba {i}')
-
-def otro_rango():
-    pass
-
+        print(f'Esto es una prueba {i}')
 
 
 def otro_rango():
     pass
+
+
+def otro_rango():
+    pass
+
+print('hola desde ronny')
