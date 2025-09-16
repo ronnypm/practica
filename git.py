@@ -22,3 +22,5 @@ def otro_rango():
     pass
 
 print('hola desde ronny')
+print("------------------------")
+print("hola desde ronald")
