@@ -78,3 +78,5 @@ print(f"Stock final: {manzana.stock}")
 print("\nIntentando asignar un stock negativo...")
 manzana.stock = -50
 print(f"Stock después de intentar asignar -50: {manzana.stock}")
+
+
