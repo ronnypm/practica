@@ -102,4 +102,8 @@ class ReporteHTML(GeneradorReportes):
      
      def _formatear_datos(self, datos):
         return '\n'.join([f"<ul><li>{item}</li><ul>" for item in datos])
+     
+     def _obtener_pie(self):
+        return f"\n--- Fin del reporte ---"
+
     
